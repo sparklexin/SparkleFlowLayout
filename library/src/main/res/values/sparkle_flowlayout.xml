@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SparkleFlowLayout">
+        <!-- Horizontal spacing between two items being laid out. -->
+        <attr name="sparkleItemSpacing" format="dimension" />
+        <!-- Vertical Spacing between two lines of items being laid out. -->
+        <attr name="sparkleLineSpacing" format="dimension" />
+        <attr name="sparkleMaxLines" format="integer"/>
+        <attr name="sparkleEllipsizeLayout" format="reference" />
+    </declare-styleable>
+</resources>
