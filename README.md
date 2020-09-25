@@ -1,9 +1,25 @@
-# Welcome to use SparkleFlowLayout!
+# Welcome to use SparkleFlowLayout
 
 `SparkleFlowLayout` is based on [FlowLayout](https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/internal/FlowLayout.java).
 
 Additional support setting maxLines: when reached the max line, it would be ellipsized, just like TextView's `android:ellipsize="end"`
 
+## Gradle
+1.Add it in your root build.gradle at the end of repositories:
+```groovy
+allprojects {
+   repositories {
+	 ...
+	 maven { url 'https://jitpack.io' }
+   }
+}
+```
+2. Add dependency:
+```groovy
+dependencies {
+   implementation 'com.github.sparklexin:sparkle-flowlayout:{latest-version}'
+}
+```
 ## Usage
 ```xml
 <xin.sparkle.flowlayout.SparkleFlowLayout
