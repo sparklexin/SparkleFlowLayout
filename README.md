@@ -1,4 +1,4 @@
-# Welcome to use SparkleFlowLayout
+# SparkleFlowLayout
 
 `SparkleFlowLayout` is based on [FlowLayout](https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/internal/FlowLayout.java).
 
